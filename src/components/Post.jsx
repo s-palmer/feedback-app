@@ -7,6 +7,7 @@ function Post() {
   return (
     <div>
       <h1>Post {params.id}</h1>
+      <h2>{params.name}</h2>
     </div>
   )
 }
